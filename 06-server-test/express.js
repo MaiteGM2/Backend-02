@@ -1,5 +1,3 @@
-// https://howtodevez.medium.com/using-express-validator-for-data-validation-in-nodejs-6946afd9d67e
-
 const express = require ('express');
 const usersRoute  = require ('./routes/users.js');
 const app = express();
