@@ -1,0 +1,52 @@
+2024-11-05T15:05:19.389Z [[32minfo[39m]: 	Solicitud recibida: GET /
+2024-11-05T15:05:19.391Z [[31merror[39m]: 	Error en el servidor: Cannot read properties of undefined (reading 'role')
+2024-11-05T15:05:56.424Z [[32minfo[39m]: 	Solicitud recibida: GET /
+2024-11-05T15:05:56.425Z [[31merror[39m]: 	Error en el servidor: Cannot read properties of undefined (reading 'role')
+2024-11-05T15:10:40.567Z [[32minfo[39m]: 	Solicitud recibida: GET /
+2024-11-05T15:10:40.570Z [[31merror[39m]: 	Error en el servidor: Cannot read properties of undefined (reading 'role')
+2024-11-05T15:12:31.389Z [[32minfo[39m]: 	Solicitud recibida: GET /
+2024-11-05T15:12:31.391Z [[31merror[39m]: 	Error en el servidor: Cannot read properties of undefined (reading 'role')
+2024-11-05T15:14:23.053Z [[32minfo[39m]: 	Solicitud recibida: GET /
+2024-11-05T15:14:23.055Z [[32minfo[39m]: 	Se han recuperado 3 usuarios
+2024-11-05T15:15:47.890Z [[32minfo[39m]: 	Solicitud recibida: GET /2
+2024-11-05T15:15:47.891Z [[32minfo[39m]: 	Usuario con ID 2 encontrado
+2024-11-05T15:18:24.938Z [[32minfo[39m]: 	Solicitud recibida: POST /
+2024-11-05T15:18:24.944Z [[32minfo[39m]: 	Generando hash de la contraseña para el usuario pepe@example.com
+2024-11-05T15:18:25.012Z [[32minfo[39m]: 	Usuario creado con ID 4
+2024-11-05T15:19:25.932Z [[32minfo[39m]: 	Solicitud recibida: POST /
+2024-11-05T15:19:25.935Z [[33mwarn[39m]: 	Errores en la validación del usuario
+2024-11-05T15:26:33.101Z [[32minfo[39m]: 	The table users is not empty, no predefined users added.
+2024-11-05T15:41:26.585Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | undefined
+2024-11-05T15:41:47.412Z [[32minfo[39m]: 	Solicitud recibida: GET / | 200
+2024-11-05T15:41:47.414Z [[32minfo[39m]: 	Se han recuperado 4 usuarios | undefined
+2024-11-05T15:42:14.509Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-05T15:42:18.254Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-05T15:42:18.256Z [[32minfo[39m]: 	Se han recuperado 4 usuarios | Status Code: undefined
+2024-11-05T15:43:29.027Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-05T15:43:29.028Z [[32minfo[39m]: 	Se han recuperado 4 usuarios | Status Code: undefined
+2024-11-05T15:47:15.090Z [[32minfo[39m]: 	Solicitud recibida: GET /3 | Status Code: 200
+2024-11-05T15:47:15.091Z [[32minfo[39m]: 	Usuario con ID 3 encontrado | Status Code: 200
+2024-11-05T15:47:39.898Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
+2024-11-05T15:47:39.900Z [[33mwarn[39m]: 	Usuario con ID 10 no encontrado | Status Code: 200
+2024-11-05T15:49:44.171Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
+2024-11-05T15:49:44.172Z [[33mwarn[39m]: 	Usuario con ID 10 no encontrado | Status Code: 200
+2024-11-05T15:53:16.835Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-05T15:53:20.979Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
+2024-11-05T15:53:20.981Z [[33mwarn[39m]: 	Usuario con ID 10 no encontrado | Status Code: 200
+2024-11-05T15:53:46.058Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
+2024-11-05T15:53:46.059Z [[33mwarn[39m]: 	Usuario con ID 10 no encontrado | Status Code: 200
+2024-11-05T15:53:51.251Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-05T15:53:51.252Z [[32minfo[39m]: 	Usuario con ID 1 encontrado | Status Code: 200
+2024-11-05T15:54:01.939Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-05T15:54:05.002Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-05T15:54:05.006Z [[32minfo[39m]: 	Usuario con ID 1 encontrado | Status Code: 200
+2024-11-05T15:54:19.142Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
+2024-11-05T15:54:19.143Z [[33mwarn[39m]: 	Usuario con ID 10 no encontrado | Status Code: 200
+2024-11-05T15:58:44.732Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-05T15:58:46.726Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
+2024-11-05T15:58:46.728Z [[33mwarn[39m]: 	Usuario con ID 10 no encontrado | Status Code: 200
+2024-11-05T15:59:49.720Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-05T16:01:17.709Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-05T16:01:20.915Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
+2024-11-05T16:01:26.687Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-05T16:01:29.616Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
