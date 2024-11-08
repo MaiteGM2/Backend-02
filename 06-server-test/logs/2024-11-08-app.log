@@ -1,0 +1,59 @@
+2024-11-08T13:52:56.032Z [[32minfo[39m]: 	Solicitud recibida: GET /100 | Status Code: 200
+2024-11-08T13:52:56.032Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T13:52:56.039Z [[32minfo[39m]: 	Se han recuperado 2 usuarios | Status Code: undefined
+2024-11-08T13:52:56.039Z [[31merror[39m]: 	Error al obtener usuario con ID 100: Error en la base de datos | Status Code: 200
+2024-11-08T13:52:56.055Z [[32minfo[39m]: 	Solicitud recibida: GET /100 | Status Code: 200
+2024-11-08T13:52:56.056Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T13:52:56.056Z [[33mwarn[39m]: 	Usuario con ID 100 no encontrado | Status Code: 200
+2024-11-08T13:52:56.058Z [[31merror[39m]: 	Error al obtener usuarios: Error de la base de datos | Status Code: 200
+2024-11-08T13:52:56.061Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-08T13:52:56.062Z [[32minfo[39m]: 	Usuario con ID 1 encontrado | Status Code: 200
+2024-11-08T14:00:17.666Z [[32minfo[39m]: 	Solicitud recibida: GET /100 | Status Code: 200
+2024-11-08T14:00:17.669Z [[31merror[39m]: 	Error al obtener usuario con ID 100: Error en la base de datos | Status Code: 200
+2024-11-08T14:00:17.681Z [[32minfo[39m]: 	Solicitud recibida: GET /100 | Status Code: 200
+2024-11-08T14:00:17.682Z [[33mwarn[39m]: 	Usuario con ID 100 no encontrado | Status Code: 200
+2024-11-08T14:00:17.685Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-08T14:00:17.686Z [[32minfo[39m]: 	Usuario con ID 1 encontrado | Status Code: 200
+2024-11-08T14:00:33.686Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T14:00:33.689Z [[32minfo[39m]: 	Se han recuperado 2 usuarios | Status Code: undefined
+2024-11-08T14:00:33.701Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T14:00:33.702Z [[31merror[39m]: 	Error al obtener usuarios: Error de la base de datos | Status Code: 200
+2024-11-08T14:04:09.084Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T14:04:09.086Z [[32minfo[39m]: 	Se han recuperado 2 usuarios | Status Code: undefined
+2024-11-08T14:04:09.098Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T14:04:09.099Z [[31merror[39m]: 	Error al obtener usuarios: Error de la base de datos | Status Code: 200
+2024-11-08T14:04:32.195Z [[32minfo[39m]: 	Solicitud recibida: GET /100 | Status Code: 200
+2024-11-08T14:04:32.198Z [[31merror[39m]: 	Error al obtener usuario con ID 100: Error en la base de datos | Status Code: 200
+2024-11-08T14:04:32.210Z [[32minfo[39m]: 	Solicitud recibida: GET /100 | Status Code: 200
+2024-11-08T14:04:32.210Z [[33mwarn[39m]: 	Usuario con ID 100 no encontrado | Status Code: 200
+2024-11-08T14:04:32.214Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-08T14:04:32.215Z [[32minfo[39m]: 	Usuario con ID 1 encontrado | Status Code: 200
+2024-11-08T14:12:16.351Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-08T14:12:49.032Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T14:12:49.034Z [[32minfo[39m]: 	Se han recuperado 4 usuarios | Status Code: undefined
+2024-11-08T14:12:58.557Z [[32minfo[39m]: 	Solicitud recibida: GET /2 | Status Code: 200
+2024-11-08T14:12:58.559Z [[32minfo[39m]: 	Usuario con ID 2 encontrado | Status Code: 200
+2024-11-08T14:13:02.633Z [[32minfo[39m]: 	Solicitud recibida: GET /10 | Status Code: 200
+2024-11-08T14:13:02.634Z [[33mwarn[39m]: 	Usuario con ID 10 no encontrado | Status Code: 200
+2024-11-08T14:22:00.663Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-08T14:22:21.530Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-08T14:23:02.583Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-08T14:23:19.076Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-08T14:25:14.611Z [[32minfo[39m]: 	Solicitud recibida: GET /2 | Status Code: 200
+2024-11-08T14:26:10.768Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-08T14:26:19.730Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T14:26:19.731Z [[32minfo[39m]: 	Se han recuperado 4 usuarios | Status Code: undefined
+2024-11-08T14:26:24.789Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-08T14:27:25.574Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-08T14:27:31.285Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T14:27:31.286Z [[32minfo[39m]: 	Se han recuperado 4 usuarios | Status Code: undefined
+2024-11-08T14:27:42.273Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-08T14:28:43.595Z [[32minfo[39m]: 	The table users is not empty, no predefined users added. | Status Code: undefined
+2024-11-08T14:28:59.066Z [[32minfo[39m]: 	Solicitud recibida: GET / | Status Code: 200
+2024-11-08T14:28:59.068Z [[32minfo[39m]: 	Se han recuperado 4 usuarios | Status Code: undefined
+2024-11-08T14:29:03.812Z [[32minfo[39m]: 	Solicitud recibida: GET /1 | Status Code: 200
+2024-11-08T14:29:03.814Z [[32minfo[39m]: 	Usuario con ID 1 encontrado | Status Code: 200
+2024-11-08T14:29:08.773Z [[32minfo[39m]: 	Solicitud recibida: GET /4 | Status Code: 200
+2024-11-08T14:29:08.774Z [[32minfo[39m]: 	Usuario con ID 4 encontrado | Status Code: 200
+2024-11-08T14:29:14.289Z [[32minfo[39m]: 	Solicitud recibida: GET /9 | Status Code: 200
+2024-11-08T14:29:14.290Z [[33mwarn[39m]: 	Usuario con ID 9 no encontrado | Status Code: 200

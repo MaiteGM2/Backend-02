@@ -6,6 +6,7 @@ const validateUser = require ('../utils/validate-user.js');
 const errorHandler = require ('../utils/error-handler.js');
 const pkg = require ('express-validator');
 const { validationResult } = pkg;
+const getUserById = require ('../utils/db.js');
 
 const router = express.Router();
 
@@ -31,20 +32,7 @@ router.get("/:id", (req, res) => {
     const id = req.params.id;
     logger.debug(`Buscando usuario con ID: ${id}`, { codeStatus: res.statusCode });
 
-    db.get("SELECT * FROM users WHERE id = ?", [id], (err, row) => {
-      if (err) {
-        logger.error(`Error al obtener usuario con ID ${id}: ${err.message}`, { codeStatus: res.statusCode });
-        return res.status(500).json({ error: err.message });
-      }
-      if(!row){
-        logger.warn(`Usuario con ID ${id} no encontrado`, { codeStatus: res.statusCode });
-        return res.status(404).json({ message: "User not found" });
-      }
-      if (row) {
-        logger.info(`Usuario con ID ${id} encontrado`, { codeStatus: res.statusCode });
-        res.status(200).json(row);
-      }
-    });
+    getUserById(id, res);
 });
 
 router.post('/', validateUser, async (req, res) => {
